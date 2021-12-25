@@ -1,0 +1,117 @@
+body {
+  text-align: center;
+  height: 100vh;
+  background: #22c1c3;
+  background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);
+  background: linear-gradient(to right, #fdbb2d, #22c1c3);
+}
+.main-div {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-left: 45px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+}
+.u-1 {
+  background-color: rgb(31, 197, 109);
+  border: 2px solid rgb(231, 217, 15);
+  border-radius: 5px;
+  height: 300px;
+}
+.u-1 input {
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+}
+.u-1 button {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #dc3545;
+  color: white;
+  cursor: pointer;
+}
+.u-2 {
+  background-color: rgb(175, 228, 115);
+  border: 2px solid rgb(205, 240, 7);
+  border-radius: 5px;
+  height: 300px;
+}
+.u-2 input {
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+}
+.u-2 button {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #dc3545;
+  color: white;
+  cursor: pointer;
+}
+
+.u-3 {
+  background-color: coral;
+  border: 2px solid rgb(9, 208, 243);
+  border-radius: 8px;
+  height: 300px;
+}
+
+.u-3 input {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+}
+.u-3 button {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #dc3545;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-press {
+  padding: 20px 80px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: aliceblue;
+  font-size: x-large;
+  background-color: #0d6efd;
+  /* background: linear-gradient(to left, #66b5ff 10%, #0f2fe7 100%); */
+}
+.btn-relod {
+  padding: 20px 80px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: aliceblue;
+  font-size: x-large;
+  background: #dc3545;
+}
+.winnerInfo {
+  color: white;
+  font-style: italic;
+  /* background-color: #dc3545; */
+  padding: 5px;
+  display: inline-block;
+}
+.scoreInfo {
+  font-style: italic;
+  margin-left: 50px;
+  color: white;
+  /* background: #dc3545; */
+  padding: 5px;
+  display: inline-block;
+}
+.winner {
+  color: #000;
+}
+.winnerScore {
+  color: #000;
+}
